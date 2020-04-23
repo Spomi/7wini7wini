@@ -69,20 +69,20 @@ client.channels.find('id', '453449558761144330').setName("Welcome To SERVER");
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '465574494476435461').setName("🔊");
-client.channels.find('id', '465574494476435461').setName("🔊a");
-client.channels.find('id', '465574494476435461').setName("🔊an");
-client.channels.find('id', '465574494476435461').setName("🔊ann");
-client.channels.find('id', '465574494476435461').setName("🔊anno");
-client.channels.find('id', '465574494476435461').setName("🔊annou");
-client.channels.find('id', '465574494476435461').setName("🔊announ");
-client.channels.find('id', '465574494476435461').setName("🔊announc");
-client.channels.find('id', '465574494476435461').setName("🔊announce");
-client.channels.find('id', '465574494476435461').setName("🔊announcem");
-client.channels.find('id', '465574494476435461').setName("🔊announceme");
-client.channels.find('id', '465574494476435461').setName("🔊announcemen");
-client.channels.find('id', '465574494476435461').setName("🔊announcement");
-client.channels.find('id', '465574494476435461').setName("🔊announcement🕪");
+client.channels.find('id', '668112223490539521').setName("🔊");
+client.channels.find('id', '668112223490539521').setName("🔊a");
+client.channels.find('id', '668112223490539521').setName("🔊an");
+client.channels.find('id', '668112223490539521').setName("🔊ann");
+client.channels.find('id', '668112223490539521').setName("🔊anno");
+client.channels.find('id', '668112223490539521').setName("🔊annou");
+client.channels.find('id', '668112223490539521').setName("🔊announ");
+client.channels.find('id', '668112223490539521').setName("🔊announc");
+client.channels.find('id', '668112223490539521').setName("🔊announce");
+client.channels.find('id', '668112223490539521').setName("🔊announcem");
+client.channels.find('id', '668112223490539521').setName("🔊announceme");
+client.channels.find('id', '668112223490539521').setName("🔊announcemen");
+client.channels.find('id', '668112223490539521').setName("🔊announcement");
+client.channels.find('id', '668112223490539521').setName("🔊announcement🕪");
 }, 8000);
  
 });
