@@ -4,7 +4,7 @@ const prefix = '='
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`For add Talke #9954| =help`,"http://twitch.tv/S-F")
+client.user.setGame(`SPACE AGAR.IO`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
