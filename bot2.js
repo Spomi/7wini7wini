@@ -24,7 +24,7 @@ client.on('ready', function(){
             j = -1;
         }
         i = i+j;
-        client.user.setGame(setGame[i],`http://www.twitch.tv/osama_gmt`);
+        client.user.setGame(setGame[i],`http://www.twitch.tv/spomi_yt`);
     }, ms);9000
 
 });
