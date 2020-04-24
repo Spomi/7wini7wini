@@ -48,7 +48,7 @@ client.channels.find('id', '668112223490539521').setName("🔊announceme");
 client.channels.find('id', '668112223490539521').setName("🔊announcemen");
 client.channels.find('id', '668112223490539521').setName("🔊announcement");
 client.channels.find('id', '668112223490539521').setName("🔊announcement🕪");
-}, 8000);
+}, 10000);
  
 });
 
