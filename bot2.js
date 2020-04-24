@@ -42,8 +42,6 @@ client.on('message', message => { if (message.author.bot) return; if (message.co
 
 +seravatar:عرض صورة السيرفر 
 
-+bc : إرسال رسالة في الخاص للجميع
-
 +moveall : لسحب كل المتصلين إلى الروم الدي توجد فيه 
 
 +v2min : إنشاء روم صوتي لمدة دقيقتين
@@ -256,7 +254,7 @@ var prefix = "+";
     if (message.guild) {
    let embed = new Discord.RichEmbed()
     let args = message.content.split(' ').slice(1).join(' ');
-if(message.content.split(' ')[0] == prefix + 'bc') {
+if(message.content.split(' ')[0] == prefix + 'b..c') {
     if (!args[1]) {
 message.channel.send("**0bc <message>**");
 return;
