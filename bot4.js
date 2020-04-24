@@ -32,27 +32,24 @@ client.on('ready', function(){
 
 
 
-client.on("ready", async  => {
-setInterval(function(){
-client.channels.find('id', '668112223490539521').setName("🔊");
-client.channels.find('id', '668112223490539521').setName("🔊a");
-client.channels.find('id', '668112223490539521').setName("🔊an");
-client.channels.find('id', '668112223490539521').setName("🔊ann");
-client.channels.find('id', '668112223490539521').setName("🔊anno");
-client.channels.find('id', '668112223490539521').setName("🔊annou");
-client.channels.find('id', '668112223490539521').setName("🔊announ");
-client.channels.find('id', '668112223490539521').setName("🔊announc");
-client.channels.find('id', '668112223490539521').setName("🔊announce");
-client.channels.find('id', '668112223490539521').setName("🔊announcem");
-client.channels.find('id', '668112223490539521').setName("🔊announceme");
-client.channels.find('id', '668112223490539521').setName("🔊announcemen");
-client.channels.find('id', '668112223490539521').setName("🔊announcement");
-client.channels.find('id', '668112223490539521').setName("🔊announcement🕪");
-}, 10000);
- 
+
+
+client.on('message', message => {
+    if (message.content.startsWith("+avatar")) {
+        var mentionned = message.mentions.users.first();
+    var x5bzm;
+      if(mentionned){
+          var x5bzm = mentionned;
+      } else {
+          var x5bzm = message.author;
+          
+      }
+        const embed = new Discord.RichEmbed()
+        .setColor("RANDOM")
+        .setImage(`${x5bzm.avatarURL}`)
+      message.channel.sendEmbed(embed);
+    }
 });
-
-
 
 
  
