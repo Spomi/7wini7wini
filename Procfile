@@ -5,3 +5,4 @@ worker4: node bot4.js
 worker5: node bot5.js
 worker6: node bot6.js
 worker8: node bot8.js
+worker8: node bot10.js
