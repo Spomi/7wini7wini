@@ -78,4 +78,4 @@ var prefix = "+";
 
 
 
-client.login(process.env.BOT4_TOKEN);
+client.login(process.env.BOT10_TOKEN);
